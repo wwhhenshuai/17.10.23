@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*=========================Reset_start==========================*/
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{font-family:"宋体","微软雅黑",Arail,Tabhoma; font-size: 12px; text-align: left;}
+ul,ol{list-style: none;}
+img{border: 0;}
+input,select,textarea{outline:0;}
+textarea{resize:none;}
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+.header .list li{
+    float: left;
+
+}
+.header .list li a{
+    float: left;
+    color: #333;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 23px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.header .list li a:hover{
+    color: #00c;
+}
+.header{
+    width: 100%;
+    margin-top: 24px;
+    height: 24px;
+}
+.header .list{
+    float:right;
+    height: 24px;
+}
+.color> #co{
+    width: 60px;
+    height: 24px;
+    background-color: #3388ff;
+    color:white;
+    line-height:24px;
+    text-align:center;
+    text-decoration:none;
+    font-size: 13px;
+}
+.content{
+    width: 100%;
+    text-align:center;
+}
+.content>.img{
+    width: 270px;
+    height: 129px;
+}
+.kuang>span{
+    display: block;
+    width: 640px;
+    height: 34px;
+    border: 1px solid #b6b6b6;
+    margin: 6px auto;
+}
+#form{
+    width: 526px;
+    height: 22px;
+    font: 16px/18px arial;
+    line-height: 22px;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    float:left;
+    border: 0;
+    outline: 0;
+}
+#btn{
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    border:none;
+    float:right;
+}
+.di{
+    width: 100%;
+    margin-top: 210px;
+    text-align:center;
+}
+.di>p{
+    color: #666;
+    font-weight: 700;
+    line-height:23px;
+}
+.over{
+    width: 100%;
+    text-align:center;
+    margin-top: 23px;
+}
+.over>p>a{
+    margin-left: 25px;
+    color: #999;
+}
+.stop{
+    color: #999;
+    width: 100%;
+    height: 20px;
+    line-height:22px;
+    vertical-align:middle;
+    margin-top: 5px;
+}
+.stop>a{
+    color: #999;
+    vertical-align: middle;
+    line-height:22px;
+    margin-left: 3px;
+}
+.stop>img{
+    vertical-align: middle;
+    line-height:22px;
+}
